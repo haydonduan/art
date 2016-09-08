@@ -1,0 +1,11 @@
+.box1, .box2 {
+  margin: 1px;
+  border: 1px solid red; }
+
+.box2 {
+  color: red; }
+
+.test {
+  margin-left: 10px; }
+  .test_sub {
+    color: blue; }

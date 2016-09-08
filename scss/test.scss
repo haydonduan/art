@@ -1,0 +1,23 @@
+$margin: 10px;
+
+@mixin color-blue{
+  color: blue;
+}
+
+.box1{
+  margin: 1px;
+  border: 1px solid red;
+}
+
+.box2{
+  @extend .box1;
+  color: red;
+}
+
+.test{
+  margin-left: $margin;
+
+  &_sub{
+    @include color-blue;
+  }
+}

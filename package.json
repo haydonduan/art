@@ -1,0 +1,19 @@
+{
+  "name": "art",
+  "version": "1.0.0",
+  "description": "art",
+  "repository": {},
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duan haiqing",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "sass": "^0.5.0"
+  }
+}
