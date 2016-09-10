@@ -1,0 +1,13 @@
+.box1{
+  margin: 1px;
+  border: 1px solid red;
+}
+
+.box2 {
+  @extend .box1;
+  color: red;
+}
+
+.box3 {
+  @extend .box1;
+}

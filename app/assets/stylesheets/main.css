@@ -1,0 +1,6 @@
+.box1, .box2, .box3 {
+  margin: 1px;
+  border: 1px solid red; }
+
+.box2 {
+  color: red; }

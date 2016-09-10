@@ -6,7 +6,7 @@ var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass:concat:autoprefixer', function () {
-  return gulp.src("./scss/**/*.scss")
+  return gulp.src('./app/assets/stylesheets/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('main.css'))
     .pipe(autoprefixer({
@@ -16,9 +16,9 @@ gulp.task('sass:concat:autoprefixer', function () {
            //  transform: rotate(45deg);
          remove:true //是否去掉不必要的前缀 默认：true 
        }))
-    .pipe(gulp.dest('./public/css/'))
+    .pipe(gulp.dest('./app/assets/stylesheets/'))
 });
 
 gulp.task('css:watch', function () {
-  gulp.watch('./scss/**/*.scss', ['sass:concat:autoprefixer']);
+  gulp.watch('./app/assets/stylesheets/scss/**/*.scss', ['sass:concat:autoprefixer']);
 });
