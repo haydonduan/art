@@ -9,3 +9,7 @@ group :development do
   gem 'pry-nav'
   gem 'listen', '~> 3.0.5'
 end
+
+group :assets do
+  gem 'sass-rails'
+end
