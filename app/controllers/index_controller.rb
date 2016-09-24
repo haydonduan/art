@@ -3,4 +3,7 @@ class IndexController < ActionController::Base
 
   def index
   end
+
+  def tips
+  end
 end
