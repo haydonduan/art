@@ -16,7 +16,9 @@ body {
     width: 100%; }
   .banner__site-name {
     height: 20px;
-    width: 170px; }
+    width: 170px;
+    font-weight: bolder;
+    font-size: 18px; }
   .banner__register {
     height: 30px;
     width: 100px;
@@ -60,3 +62,8 @@ body {
     text-align: right; }
   .main-context__button--right {
     text-align: left; }
+
+.tips-container {
+  text-align: center; }
+  .tips-container .tips-font {
+    line-height: 70px; }
