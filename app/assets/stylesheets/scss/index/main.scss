@@ -6,7 +6,7 @@ $main-context-height: 500px;
 $banner-site-name-height: 20px;
 
 body{
-  background-color: #EEE9D5;
+  background-image: url('../assets/background.png');
 }
 
 .banner {
@@ -99,6 +99,7 @@ body{
 
     .btn-default{
       background-color: #968b6f;
+      color: #FFFFFF;
     }
   }
 

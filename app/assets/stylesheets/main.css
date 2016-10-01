@@ -1,5 +1,5 @@
 body {
-  background-color: #EEE9D5; }
+  background-image: url("../assets/background.png"); }
 
 .banner {
   width: 100%;
@@ -54,7 +54,8 @@ body {
   .main-context__button {
     margin-top: 200px; }
     .main-context__button .btn-default {
-      background-color: #968b6f; }
+      background-color: #968b6f;
+      color: #FFFFFF; }
   .main-context__button--left {
     text-align: right; }
   .main-context__button--right {
