@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
-  get :index, to: 'index#index'
-  get :tips, to: 'index#tips'
+  resources :index do
+    collection do
+      get :tips
+    end
+  end
+
+  resources :pictures, only: [:index, :show]
 end
